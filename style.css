@@ -68,9 +68,10 @@ footer {
 .carro-luxo {
     margin-top: 90px;
 }
+
 .carro2 {
     margin-left: 303px;
-    margin-top: 126px;
+    margin-top: 66px;
 }
 .texto1 {
     text-align: center;
@@ -78,7 +79,28 @@ footer {
 .texto2 {
     text-align: center;
 }
+.texto3 {
+    text-align: center;
+}
 
+.conteudo2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #e2e2e2;
+
+    border: 1px solid black;
+}
+.foto-patio {
+    margin-left: 400px;
+    margin-top: 15px;
+}
+.titulo3 {
+    text-align: center;
+}
 main {
     display: flex;
 }
