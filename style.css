@@ -1,44 +1,54 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
-  height: 8vh;
-  width: 100vw;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
 }
 
 header > img {
-  height: 200px;
+    height: 200px;
 }
 
 .login {
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-  gap: 2px;
-  right: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    gap: 2px;
+    right: 1vw;
 }
 
 .login > input {
-  border: none;
-  border-bottom: 1px solid black;
-  align-items: center;
+    border: none;
+    border-bottom: 1px solid black;
+    align-items: center;
 }
 
 .login > button {
-  height: 20px;
+    height: 20px;
 }
 
+/* parte do rodapé */
 footer {
-  background-color: rgb(75, 26, 26);
-  color: white;
-  text-align: center;
-  padding: 5px;
-  font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+    margin-top: 100%;
+}
+
+.rede-social {
+    display: flex;
+}
+
+.img-redesocial {
+    margin-right: 10px;
 }
