@@ -59,11 +59,24 @@ footer {
     width: 100vw;
     margin: 0 auto;
     border-radius: 8px;
-    background-color: #f4eaf7;
+    background-color: #e2e2e2;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
     border: 1px solid black;
+}
+.carro-luxo {
+    margin-top: 90px;
+}
+.carro2 {
+    margin-left: 303px;
+    margin-top: 126px;
+}
+.texto1 {
+    text-align: center;
+}
+.texto2 {
+    text-align: center;
 }
 
 main {
