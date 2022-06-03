@@ -63,7 +63,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
-    border: 1px solid black;
+    padding: 15px;
 }
 .carro-luxo {
     margin-top: 90px;
@@ -91,8 +91,7 @@ footer {
     margin: 0 auto;
     border-radius: 8px;
     background-color: #e2e2e2;
-
-    border: 1px solid black;
+    padding: 15px;
 }
 .foto-patio {
     margin-left: 400px;
@@ -100,6 +99,7 @@ footer {
 }
 .titulo3 {
     text-align: center;
+    margin-top: 15px;
 }
 main {
     display: flex;
