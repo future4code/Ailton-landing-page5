@@ -130,7 +130,7 @@ footer {
 }
 
 .carro-luxo2 {
-    margin-top: 90px;
+    margin-top: 38px;
 }
 
 .carro-luxo2:hover {
@@ -173,8 +173,12 @@ footer {
 
 .foto-patio {
     margin-left: 400px;
-    margin-top: 15px;
+    margin-top: -29px;
     border-radius: 15px;
+}
+.foto-patio:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
 
 .titulo3 {
