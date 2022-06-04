@@ -4,52 +4,83 @@
     box-sizing: border-box;
 }
 
-header {
-    height: 8vh;
-    width: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
+html {
+    scroll-behavior: smooth;
 }
 
-header > button {
-    border: 1px solid black;
-    color: rgba(233, 113, 77, 0.952);
-    font-size: 25px;
-    border-radius: 5px;
-    background-color: #e2e2e2;
-    transition: 1s;
-    height: 45px;
-    width: 250px;
+header {
+    position: fixed;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    width: 100%;
+    background: #fff;
+    z-index: 1;
+    padding: 10px 20px;
+}
+
+header > .nav-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+header > nav {
+    margin-left: 20px;
+}
+
+header > .nav-left > nav  a {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 5px 10px;
+}
+
+header > .nav-left > nav a + a {
+    margin-left: 10px;
+}
+
+header > .nav-left > nav a, header > .nav-left > nav a:visited,
+header > .nav-left > nav a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+header > .nav-left > nav a:hover {
+    color: white;
+    background: #FF5C5C;
+}
+
+header > .nav-left > img {
+    height: 80px;
+}
+
+header > .login > button {
+
+}
+
+button, a {
+    cursor: pointer;
 }
 
 button:hover{
     height: 55px;
-    width: 300;
-}
-
-header > img {
-    height: 200px;
 }
 
 .login {
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-    gap: 2px;
-    right: 1vw;
+    gap: 20px;
+    text-align: right;
 }
 
-.login > input {
+.login input {
     border: none;
     border-bottom: 1px solid black;
     align-items: center;
 }
 
-.login > button {
+.login button {
     height: 20px;
 }
 
@@ -59,7 +90,6 @@ footer {
     color: white;
     text-align: center;
     padding: 5px;
-    margin-top: 100%;
 }
 
 .rede-social {
@@ -81,20 +111,23 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
-    padding: 15px;
+    padding: 0 15px;
 }
 
 .carro1:hover {
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
+
 .carro-luxo {
     margin-top: 90px;
 }
+
 .carro-luxo:hover {
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
+
 .carro-luxo2 {
     margin-top: 90px;
 }
@@ -103,6 +136,7 @@ footer {
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
+
 .carro2 {
     margin-left: 149px;
     margin-top: 50px;
@@ -112,12 +146,15 @@ footer {
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
+
 .texto1 {
     text-align: center;
 }
+
 .texto2 {
     text-align: center;
 }
+
 .texto3 {
     text-align: center;
 }
@@ -130,19 +167,28 @@ footer {
     margin: 0 auto;
     border-radius: 8px;
     background-color: #e2e2e2;
-    padding: 15px;
+    padding: 0 15px;
 }
+
 .foto-patio {
     margin-left: 400px;
     margin-top: 15px;
 }
+
 .titulo3 {
     text-align: center;
     margin-top: 15px;
 }
+
 main {
     display: flex;
 }
+
+main .conteudo, main .conteudo2,
+main .conteudo3 {
+    padding-top: 100px;
+}
+
 .conteudo3 {
     display: grid;
     grid-template-columns: 1fr;
@@ -151,20 +197,66 @@ main {
     margin: 0 auto;
     border-radius: 8px;
     background-color: #e2e2e2;
-    padding: 15px;
+    padding: 0 15px;
 }
+
 .aplicativo {
     margin-top: 70px;
 }
+
 .aplicativo:hover {
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
+
 .texto4 {
     margin-left: 102px;
     display: flex;
 }
+
 .google-play {
     margin-top: 50px;
     margin-left: 93px;
+}
+
+@media screen and (max-width: 630px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    header > .nav-left {
+        flex-direction: column;
+    }
+
+    header > .nav-left > img {
+        margin-bottom: 40px;
+    }
+
+    header > .nav-left, header > .login {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    main .conteudo, main .conteudo2,
+    main .conteudo3 {
+        padding-top: 300px;
+    }
+}
+
+@media screen and (min-width: 631px) and (max-width: 1030px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    header > .nav-left, header > .login {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    main .conteudo, main .conteudo2,
+    main .conteudo3 {
+        padding-top: 200px;
+    }
 }
