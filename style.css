@@ -13,6 +13,24 @@ header {
     align-content: center;
 }
 
+header > button {
+    border: 1px solid black;
+    color: rgba(233, 113, 77, 0.952);
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #e2e2e2;
+    transition: 1s;
+    height: 45px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+
+button:hover{
+    height: 55px;
+    width: 300;
+}
+
 header > img {
     height: 200px;
 }
