@@ -35,7 +35,7 @@ header > img {
     height: 20px;
 }
 
-/* parte do rodapé */
+/* parte do rodapé  Fernanda*/
 footer {
     background-color: black;
     color: white;
@@ -51,7 +51,7 @@ footer {
 .img-redesocial {
     margin-right: 10px;
 }
-/* parte da main */
+/* parte da main Fernanda */
 
 .conteudo {
     display: grid;
@@ -147,6 +147,6 @@ main {
     display: flex;
 }
 .google-play {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 93px;
 }
