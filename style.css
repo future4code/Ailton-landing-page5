@@ -53,7 +53,7 @@ header > img {
     height: 20px;
 }
 
-/* parte do rodapé */
+/* parte do rodapé  Fernanda*/
 footer {
     background-color: black;
     color: white;
@@ -69,7 +69,7 @@ footer {
 .img-redesocial {
     margin-right: 10px;
 }
-/* parte da main */
+/* parte da main Fernanda */
 
 .conteudo {
     display: grid;
@@ -83,13 +83,34 @@ footer {
     justify-items: center;
     padding: 15px;
 }
+
+.carro1:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+}
 .carro-luxo {
     margin-top: 90px;
 }
+.carro-luxo:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+}
+.carro-luxo2 {
+    margin-top: 90px;
+}
 
+.carro-luxo2:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+}
 .carro2 {
-    margin-left: 303px;
-    margin-top: 66px;
+    margin-left: 149px;
+    margin-top: 50px;
+}
+
+.carro2:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
 .texto1 {
     text-align: center;
@@ -121,4 +142,29 @@ footer {
 }
 main {
     display: flex;
+}
+.conteudo3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #e2e2e2;
+    padding: 15px;
+}
+.aplicativo {
+    margin-top: 70px;
+}
+.aplicativo:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+}
+.texto4 {
+    margin-left: 102px;
+    display: flex;
+}
+.google-play {
+    margin-top: 50px;
+    margin-left: 93px;
 }
