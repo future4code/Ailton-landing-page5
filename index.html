@@ -9,16 +9,42 @@
     </head>
     <body>
         <header>
-            <img src="./img/4cars.png" gitn alt="Logo" />
-            
-            <a href="redeAgencias.html"><button> REDE DE AGÊNCIAS </button></a>
-            <div class="login">
-                Login: <input type="text" /> Senha: <input type="password" />
-                <button>Entrar</button>
+            <div class="nav-left">
+                <img src="./img/4cars-no-background.png" gitn alt="Logo" />
+
+                <nav>
+                    <a href="#carros">
+                        Carros
+                    </a>
+                    <a href="#local">
+                        Localização
+                    </a>
+                    <a href="#sobre-nos">
+                        Sobre nós
+                    </a>
+                </nav>
             </div>
+
+            <form class="login" action="">
+                <div class="input-group">
+                    <label for="username">
+                        Login:
+                    </label>
+                    <input id="username" name="username" type="text" />
+                </div>
+                <div class="input-group">
+                    <label for="password">
+                        Senha:
+                    </label>
+                    <input id="password" name="password" type="password" />
+                </div>
+                <button type="submit">
+                    Entrar
+                </button>
+            </form>
         </header>
 
-        <main>
+        <main id="carros">
             <div class="conteudo">
                 <section>
                     <img
@@ -68,7 +94,7 @@
         </main>
         <br />
 
-        <main>
+        <main id="local">
             <div class="conteudo2">
                 <section>
                     <img
@@ -99,7 +125,7 @@
             </div>
         </main>
         <br />
-        <main>
+        <main id="sobre-nos">
             <div class="conteudo3">
                 <section>
                     <img
