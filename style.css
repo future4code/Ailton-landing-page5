@@ -52,11 +52,8 @@ header > .nav-left > nav a:hover {
     background: #ff5c5c;
 }
 
-header > .nav-left > img {
+header > .nav-left > a > img {
     height: 80px;
-}
-
-header > .login > button {
 }
 
 button,
@@ -64,25 +61,19 @@ a {
     cursor: pointer;
 }
 
-button:hover {
-    height: 55px;
-}
-
-.login {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    text-align: right;
-}
-
-.login input {
+header > a > button{
+    background-color: #e2e2e2;
     border: none;
-    border-bottom: 1px solid black;
-    align-items: center;
+    color: black;
+    border-radius: 2px;
+    height: 50px;
+    width: 100px;
 }
 
-.login button {
-    height: 20px;
+button:hover {
+    background-color: #ff5c5c;
+    color: white;
+    border: 1px solid #ff5c5c;
 }
 
 /* parte do rodapé  Fernanda*/
@@ -200,7 +191,6 @@ main .conteudo3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     height: 100vh;
     width: 100vw;
     margin: 0 auto;
@@ -226,6 +216,58 @@ main .conteudo3 {
 .google-play {
     margin-top: 50px;
     margin-left: 93px;
+}
+
+/* tela de login */
+
+#login{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #e2e2e2;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: start;
+    justify-items: center;
+    padding: 0 15px;
+}
+
+.info{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: px;
+
+}
+.area-login{
+    padding: 10px;
+}
+
+.area-login > input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+.area-login > a > button{
+        background-color: #ff5c5c;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      
+}
+
+.area-login > a > button:hover{
+    opacity: 0.9;
 }
 
 @media screen and (max-width: 425px) {
