@@ -163,7 +163,7 @@ footer {
 }
 
 .foto-patio {
-    margin-left: 400px;
+    margin-left: 40vw;
     margin-top: -29px;
     border-radius: 15px;
 }
@@ -240,11 +240,18 @@ main .conteudo3 {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    gap: px;
+    gap: 10px;
 
 }
+
+.info > p > a,
+.info > p:active > a {
+    color: #ff5c5c;
+    text-decoration: underline;
+}
+
 .area-login{
-    padding: 10px;
+    padding: 20px;
 }
 
 .area-login > input{
