@@ -7,4 +7,5 @@ Atendemos pessoas física e juridica.
 Nossa matriz fica situada em Curitiba e com mais de 100 lojas espalhadas pelo Brasil.
 Somos referência no ramo e temos orgulho do nosso trabalho.
 
-Link surge:
+Link surge: wholesale-food.surge.sh
+
